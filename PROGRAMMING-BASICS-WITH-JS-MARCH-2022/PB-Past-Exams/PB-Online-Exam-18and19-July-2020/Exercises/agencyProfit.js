@@ -1,9 +1,9 @@
 function agencyProfit(input) {
     let name = input[0];
-    let adultTickets = Number(input[1]);
-    let kidTickets = Number(input[2]);
-    let adultTicketsPrice = Number(input[3]);
-    let taxServicePrice = Number(input[4]);
+    let adultTickets = +(input[1]);
+    let kidTickets = +(input[2]);
+    let adultTicketsPrice = +(input[3]);
+    let taxServicePrice = +(input[4]);
 
     let kidTicketsPrice = adultTicketsPrice * 0.30;
 
